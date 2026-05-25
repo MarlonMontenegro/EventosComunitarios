@@ -129,7 +129,7 @@ El proyecto utiliza Firebase para:
 </div>
 
 
-
+Muchas gracias
 ---
 
 # 📌 Requisitos
