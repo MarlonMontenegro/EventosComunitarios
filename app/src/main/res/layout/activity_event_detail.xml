@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#17182E"
+    android:background="#d9d9d9d9"
     android:padding="24dp">
 
     <LinearLayout
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Título del evento"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ubicación"
-            android:textColor="#A8A8C8"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:layout_marginBottom="24dp"/>
 
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Comentarios y calificación"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginBottom="14dp"/>

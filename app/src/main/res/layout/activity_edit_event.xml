@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#17182E"
+    android:background="#d9d9d9"
     android:padding="24dp"
     tools:context=".views.activity_create_event">
 
@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Actualizar Evento"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Completa la información del evento"
-            android:textColor="#A8A8C8"
+            android:textColor="#000000"
             android:textSize="15sp"
             android:layout_marginBottom="28dp"/>
 

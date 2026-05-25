@@ -12,7 +12,20 @@
           "package_name": "com.udb.eventoscomunitarios"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "240134563686-5rt4ms2muvdcm6sglj5dlk9afdoajq84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udb.eventoscomunitarios",
+            "certificate_hash": "106c30acfdcec7e324dd0606e20ce98c67e54a38"
+          }
+        },
+        {
+          "client_id": "240134563686-3ckujrr3dicui5gfti12jr04f7edf0tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD9IpZuKMKuYPA29gKZQydxNQDVD4Y01yY"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240134563686-3ckujrr3dicui5gfti12jr04f7edf0tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
