@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17182E"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/containerDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBackToEvents"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="← Atrás"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#252642"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título del evento"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha y hora"
+            android:textColor="#6C3FD1"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación"
+            android:textColor="#A8A8C8"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:background="#252642"
+            android:padding="18dp"
+            android:layout_marginBottom="22dp"/>
+
+        <Button
+            android:id="@+id/btnConfirmAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Confirmar asistencia"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6C3FD1"
+            android:layout_marginBottom="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentarios y calificación"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/etReviewComment"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="Escribe tu comentario..."
+            android:gravity="top"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A8A8C8"
+            android:background="#252642"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/etReviewRating"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Calificación del 1 al 5"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A8A8C8"
+            android:background="#252642"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btnSaveReview"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Guardar comentario"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#6C3FD1"
+            android:layout_marginBottom="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentarios del evento"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="14dp"/>
+
+        <LinearLayout
+            android:id="@+id/containerReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EventosComunitarios">
+        <activity
+            android:name=".views.activity_edit_event"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_history"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_my_events"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_event_detail"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_events"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_create_event"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_register"
+            android:exported="false" />
+        <activity
+            android:name=".views.activity_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
