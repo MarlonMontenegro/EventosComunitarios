@@ -9,6 +9,7 @@
     android:background="#2B2B2B"
     tools:context=".views.activity_dashboard">
 
+    
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
