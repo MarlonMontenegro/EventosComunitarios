@@ -107,9 +107,9 @@ El proyecto utiliza Firebase para:
 |---|---|
 | Miguel Eduardo Vallejos Linares | VL131638 |
 | Alejandro Benjamín Rivera Ochoa | RO243154 |
-| Mayron Steve Lopez Girón | LG243153 |
-| Andrea Paola Montenegro Paz | MP101106 |
-| Marlon Eduardo Montenegro Paz | MP243207 |
+| Mayron Steve Lopez Girón        | LG243153 |
+| Andrea Paola Montenegro Paz     | MP101106 |
+| Marlon Eduardo Montenegro Paz   | MP243207 |
 
 ---
 
