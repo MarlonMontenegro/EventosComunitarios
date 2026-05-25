@@ -117,10 +117,13 @@ El proyecto utiliza Firebase para:
 
 Aquí pueden agregarse capturas de pantalla de la aplicación.
 
-```md
-![Login](ruta-imagen)
-![Dashboard](ruta-imagen)
-```
+<img width="1079" height="2165" alt="WhatsApp Image 2026-05-24 at 9 26 00 PM" src="https://github.com/user-attachments/assets/2fcd10a4-4062-43af-bcda-f254a4a0b52e" />
+<img width="1080" height="2161" alt="image" src="https://github.com/user-attachments/assets/7664482b-5cac-4e57-8bea-83cb282a4ed5" />
+<img width="1077" height="2168" alt="image" src="https://github.com/user-attachments/assets/b158a5fd-f324-4100-a401-901496cbd3ef" />
+<img width="1080" height="2013" alt="image" src="https://github.com/user-attachments/assets/f9a6175d-e4cb-4818-bbfd-b032c25a6f34" />
+<img width="1080" height="2055" alt="image" src="https://github.com/user-attachments/assets/a55abf0f-4f83-4a11-a1a7-a78b4112c67d" />
+
+
 
 ---
 
